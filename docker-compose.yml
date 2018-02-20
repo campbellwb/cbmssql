@@ -1,0 +1,5 @@
+mssql:
+  build: mssql
+  ports:
+    - "1433:1433"
+  env_file: ".env"
